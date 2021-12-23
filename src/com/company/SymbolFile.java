@@ -144,7 +144,7 @@ class Symbol {
 
     public void textIntoFile () throws IOException {
         System.out.println("Enter text:");
-        data = inf.readLine();//ввод текста
+        data = inf.readLine();
         System.out.println("Enter name of file :");
         name = inf.readLine();
         fio = new RandomAccessFile(new File(name), "rw");
